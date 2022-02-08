@@ -12,6 +12,10 @@ ul {
     margin: 0;
     padding: 0;
 }
+#Nav_Bar {
+    /* supposed to make menu list run horizontally */
+    display: inline;
+}
 a:link {
     color: blue;
     background-color: transparent;
