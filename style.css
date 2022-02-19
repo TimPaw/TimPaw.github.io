@@ -7,19 +7,28 @@ body {
 h1, h2, h3, h4 {
     text-align: center;
 }
+p {
+    padding: 10px 10px 10px 0px;
+}
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: -15px;
+    padding: 15px;
+    background-color: black;
 }
-#Nav_Bar {
-    /* supposed to make menu list run horizontally */
-    display: inline;
+li:nth-child(1) {
+    padding: 50px;
+}
+li {
+    padding: 10px;
 }
 a:link {
     color: blue;
     background-color: transparent;
     text-decoration: none;
+}
+[id^='navbar_'] {
+    display: inline;
 }
 a:visited {
     color: blue;
